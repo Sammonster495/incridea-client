@@ -14,7 +14,7 @@ const SPONSORS: Sponsor[] = [
     notCloudinary: true,
     desc: "Founded in 2015 with the blessings of Brahmashree K S Nithyananda, Lotus Properties is a leading real estate firm in Mangaluru. Guided by the philosophy of “We Pursue Quality,” it is committed to delivering high-quality residential and commercial projects. Led by industry veterans Jithendra Kottary and Sampath Kumar Shetty, who bring over 40 years of combined experience, the company has redefined the region’s real estate landscape.",
     websiteURL: "https://lotusproperties.co.in/",
-    logo: "Lotus_Properties_Logo.jpg",
+    logo: "Lotus_Properties_Logo.webp",
   },
   {
     name: "SL Shet Gold & Diamond House",
@@ -28,21 +28,21 @@ const SPONSORS: Sponsor[] = [
     title: "Core Title Sponsor ",
     desc: "Indulge in the pure goodness of Nandini, your go-to destination for premium dairy products. With a legacy of excellence spanning decades, Nandini brings you the finest selection of milk, curd, ghee, and more, straight from the farm to your table.Their commitment to quality and freshness ensures every sip and bite is a delight.Elevate your culinary experience with Nandini ? the taste of tradition and purity.",
     websiteURL: "",
-    logo: "Nandini.png",
+    logo: "Nandini.webp",
   },
   {
     name: "Garodi steels",
     title: "Sponsor",
     desc: "From a single retail outlet near Garodi Temple, Mangalore to nine branches across five districts, this company has flourished into a family of over two hundred employees.Committed to delivering top- notch quality products in every segment, customers can trust in their dedication to excellence. With a vast network of over 200 dealers and ongoing interactions with engineers, contractors, fabricators, and customers, feedback is valued to ensure continuous improvement and customer satisfaction.Experience excellence with this reputable brand.",
     websiteURL: "",
-    logo: "garodiSteel-logo.png",
+    logo: "garodiSteel-logo.webp",
   },
   {
     name: "Radha medicals",
     title: "Sponsor",
     desc: "Discover healthcare excellence at Radha Medicals, your trusted destination for all your medical needs.With a commitment to providing top- notch services and quality products, Radha Medicals ensures your well - being is their priority.From prescription medications to over - the - counter remedies, our knowledgeable staff is here to assist you every step of the way.Experience convenience and care with Radha Medicals, Mangalore- your partner in health.",
     websiteURL: "",
-    logo: "Radha_Medicals.png",
+    logo: "Radha_Medicals.webp",
   },
   {
     name: "LIC",
@@ -50,7 +50,7 @@ const SPONSORS: Sponsor[] = [
     notCloudinary: true,
     desc: "LIC, India's most trusted life insurance provider, has been a pillar of financial security for generations. With a legacy of trust and excellence, LIC offers a diverse range of insurance solutions, from life protection and retirement plans to child education and investment policies. Committed to safeguarding the financial future of millions, LIC ensures comprehensive coverage and long-term savings, making it the preferred choice for individuals and families across the nation.",
     websiteURL: "https://licindia.in/",
-    logo: "LIC_Logo.jpg",
+    logo: "LIC_Logo.webp",
   },
 ];
 

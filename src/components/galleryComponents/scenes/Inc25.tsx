@@ -133,7 +133,7 @@ const Inc25 = () => {
           >
             Visit&nbsp;&nbsp;
             <img
-              src="/2025/gallery/capture-logo.png"
+              src="/2025/gallery/capture-logo.webp"
               alt="Capture"
               className="h-6 cursor-pointer"
             />

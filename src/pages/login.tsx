@@ -171,7 +171,7 @@ const SignIn: NextPage = () => {
       <Image
         fill={true}
         className="object-cover blur-[3px]"
-        src={`/2025/login/bg-login.jpeg`}
+        src={`/2025/login/bg-login.webp`}
         alt={"loginBG"}
         quality={100}
         priority

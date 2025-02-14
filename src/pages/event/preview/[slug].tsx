@@ -1,4 +1,4 @@
-import { useQuery, } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -21,16 +21,20 @@ import { env } from "~/env";
 import { EventByIdDocument } from "~/generated/generated";
 
 const Page = () => {
-  const router = useRouter()
+  const router = useRouter();
 
   const { data, loading } = useQuery(EventByIdDocument, {
     variables: {
       id: router.query.slug as string,
     },
-  })
+  });
 
-  const event = data?.eventById.__typename === "QueryEventByIdSuccess" ? data.eventById.data : null
-  const error = data?.eventById.__typename === "Error" ? data.eventById.message : null
+  const event =
+    data?.eventById.__typename === "QueryEventByIdSuccess"
+      ? data.eventById.data
+      : null;
+  const error =
+    data?.eventById.__typename === "Error" ? data.eventById.message : null;
 
   const getEventAttributes = () => {
     if (!event) return [];
@@ -83,13 +87,13 @@ const Page = () => {
     ];
   };
 
-  if (loading) return <div>Loading...</div>
+  if (loading) return <div>Loading...</div>;
 
   return (
     <div className={`relative flex items-center justify-center`}>
       <Image
         alt="events-bg"
-        src="/2025/eventBg.jpg"
+        src="/2025/eventBg.webp"
         height={1920}
         width={1080}
         priority

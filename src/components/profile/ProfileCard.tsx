@@ -156,7 +156,7 @@ function Band({
   const { nodes, materials } = useGLTF(
     `/${CONSTANT.YEAR}/3d/profile_tag.glb`,
   ) as BadgeGLTF;
-  const texture = useTexture(`/${CONSTANT.YEAR}/badgelogo.png`);
+  const texture = useTexture(`/${CONSTANT.YEAR}/badgelogo.webp`);
   const { width, height } = useThree((state) => state.size);
   const [curve] = useState(
     () =>
@@ -375,7 +375,7 @@ function Band({
                         justifyContent="center"
                       >
                         <ThreeImage
-                          src={user.profileImage ?? "2025/ryoko.png"}
+                          src={user.profileImage ?? "2025/ryoko.webp"}
                           width={130}
                           aspectRatio={0.7}
                           borderRadius={6}

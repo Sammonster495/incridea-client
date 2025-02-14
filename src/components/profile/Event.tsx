@@ -48,7 +48,7 @@ const EventCard: FC<{
       <div className="flex flex-col items-center justify-center text-black">
         <div className="relative">
           <Image
-            src={event.image ?? `/${CONSTANT.YEAR}/vertical_logo.png`}
+            src={event.image ?? `/${CONSTANT.YEAR}/vertical_logo.webp`}
             alt={event.name}
             height={300}
             width={300}

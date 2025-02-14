@@ -19,14 +19,14 @@ const links: {
   label: string;
   href: string;
 }[] = [
-    { label: "Home", href: "/" },
-    { label: "Explore", href: "/explore" },
-    { label: "Events", href: "/events" },
-    // { label: "Sponsors", href: "/sponsors" },
-    { label: "Gallery", href: "/gallery" },
-    { label: "Pronites", href: "/pronites" },
-    { label: "About", href: "/about" },
-  ];
+  { label: "Home", href: "/" },
+  { label: "Explore", href: "/explore" },
+  { label: "Events", href: "/events" },
+  // { label: "Sponsors", href: "/sponsors" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Pronites", href: "/pronites" },
+  { label: "About", href: "/about" },
+];
 
 const REPS = 6;
 const DISPLAY_LINKS_LENGTH = links.length * REPS;
@@ -414,7 +414,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ withNavbar = true }) => {
             {isClient && (
               <Image
                 className="w-24 transition-opacity hover:opacity-75"
-                src={`/2025/logo.png`}
+                src={`/2025/logo.webp`}
                 alt="Logo"
                 width={100}
                 height={80}

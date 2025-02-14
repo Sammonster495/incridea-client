@@ -42,12 +42,12 @@ const Event = ({
         name: "Date",
         text: event.rounds[0]?.date
           ? new Date(event.rounds[0]?.date).toLocaleString("en-IN", {
-            day: "numeric",
-            month: "short",
-            hour: "numeric",
-            minute: "numeric",
-            hour12: true,
-          })
+              day: "numeric",
+              month: "short",
+              hour: "numeric",
+              minute: "numeric",
+              hour12: true,
+            })
           : "TBD",
         Icon: Calendar,
       },
@@ -156,7 +156,7 @@ const Event = ({
         </foreignObject>
 
         <image
-          href="/2025/logo-white.png"
+          href="/2025/logo-white.webp"
           x="21"
           y="-8"
           width="30"

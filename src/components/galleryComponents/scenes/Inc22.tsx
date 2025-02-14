@@ -124,7 +124,7 @@ const Inc22 = ({ imgArr }: { imgArr: string[] }) => {
         >
           <div className="relative translate-y-[10%] right-[8%] w-[90vw] sm:w-[200vw] h-[100vh] sm:h-[50vh] max-w-[1000px] max-h-[800px] sm:translate-y-[70%] sm:right-[4%]">
             <Image
-              src="/2025/gallery/tablet.png"
+              src="/2025/gallery/tablet.webp"
               alt="Tablet frame"
               layout="fill"
               objectFit="contain"

@@ -252,7 +252,7 @@ export const HomeUi = () => {
         >
           <div className="mx-auto w-screen h-screen p-5 relative">
             <Image
-              src={`/2025/logo.png`}
+              src={`/2025/logo.webp`}
               priority
               width={640}
               height={640}
@@ -264,7 +264,7 @@ export const HomeUi = () => {
 
         <div data-depth="0.2" className="absolute w-screen h-screen z-20">
           <Image
-            src={`/2025/eoelogo.png`}
+            src={`/2025/landing/eoelogo.webp`}
             priority
             width={640}
             height={640}
@@ -272,16 +272,6 @@ export const HomeUi = () => {
             className="md:w-[30%] w-[85%] left-1/2 absolute -translate-x-1/2 md:top-[30%] top-[30%] object-contain object-center"
           />
         </div>
-        {/* <div data-depth="0.05" className="absolute w-screen h-screen z-[19]">
-          <Image
-            src={`/2025/landing/EOEShadow.webp`}
-            priority
-            width={640}
-            height={640}
-            alt="EOE"
-            className="md:w-[30%] w-[70%] left-1/2 absolute -translate-x-1/2 md:top-[40%] top-[50%] object-contain object-center"
-          />
-        </div> */}
 
         <div className="w-screen h-screen z-50 relative select-all pointer-events-auto">
           <div className="bottom-[18%] left-1/2 -translate-x-1/2 absolute flex gap-4">
